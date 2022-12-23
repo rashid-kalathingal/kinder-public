@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navdiv{
+    background:#f3410e;
+    height: 63px;
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    position:absolute;
+    margin-left: 22px;
+    width: 143px;
+    height: 117px;
+    z-index: 4;
+}
+.nav-link{
+    padding-left: 33px !important;
+    padding-right: 15px !important;
+   
+    font-family:sans-serif ;
+    font-weight:bolder;
+    letter-spacing: -1px;
+
+}
+#mission:hover{
+    color: rgb(220, 8, 8)!important;
+    transition: .5s;
+}
+#product:hover{
+    color: rgb(220, 8, 8)!important;
+    transition: .5s;
+}
+#quality:hover{
+    color: rgb(220, 8, 8)!important;
+    transition: .5s;
+}
+#app:hover{
+    color: rgb(220, 8, 8)!important;
+    transition: .5s;
+}
+#kinder:hover{
+    color: rgb(220, 8, 8)!important;
+    transition: .5s;
+}
+#divali:hover{
+    color: rgb(220, 8, 8)!important;
+    transition: .5s;
+}
+.pic1{
+    width:100%;
+    height: 100%;
+}
+   
+
+@media only screen and (max-width: 991px) {
+    .nav-link{
+        color: rgb(255, 255, 255) !important;
+    }
+    .nav-item{
+      
+        text-align: center;
+        justify-content: center;
+        background-color: rgba(129, 18, 18, 0.625);
+        
+    }
+    .hello{
+        margin-top: 40px;
+    }
+    
+  }
+ .pic1{
+    width: 100%;
+    height: 100%;
+ }
+ .winprize{
+    padding: 14% 4%;
+    width: 100%;
+    height: auto;
+    background-color: #f3410e;
+
+ }
+
+.prizebox{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: solid 20px;
+    border-color: aliceblue;
+    background-color: aliceblue;
+
+}
+.prize{
+    border-radius: 20px;
+    width:100%;
+    height: 100%;
+
+}
+.container{
+    width: 100%;
+    height: auto;
+    background-color: #f3410e;
+}
+.gradiant{
+    width: 100%;
+    height: 80px;
+    background-color: #f3410e;
+    background-image: linear-gradient(#f3410e, white);
+}
+.footerpic{
+    width: 9em;
+    height: 1em;
+    padding-left: 0;
+}
+
+.fd{
+    
+    text-align: center;
+}
+
+.foot2{
+    padding-left: 0;
+    text-decoration: none;
+    height: 100%;
+    width: 70%;
+    display: flex;
+   
+   
+}
+.ul2{
+    text-align: center;
+}
+ul{
+    display:inline-block ;
+    list-style-type: none;
+}
+.footer{
+    background-color: #f3410e;
+}
